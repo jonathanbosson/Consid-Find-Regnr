@@ -11,7 +11,7 @@
 #include <iostream>
 #include <stdlib.h>         // malloc, free
 #include <stdio.h>          // printf, read file
-#include <omp.h>			// parallel computation
+#include <libiomp/omp.h>			// parallel computation
 
 using namespace std;
 #define cMAX 18279 // 26^3 + 26^2 + 26 + 1

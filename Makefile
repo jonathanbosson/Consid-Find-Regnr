@@ -9,7 +9,7 @@ clean:
 	-$(RM) *.o out
 
 out: main.o
-	g++ -o $@ -fopenmp -O3 -std=c++11 main.o $(LFLAGS)
+	g++ -o $@ -O3 -std=c++11 main.o $(LFLAGS)
 
 test: test.o
 	g++ -o $@ -O3 test.o $(LFLAGS)
